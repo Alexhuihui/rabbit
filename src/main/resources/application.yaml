@@ -1,6 +1,11 @@
 spring:
   profiles:
     active: usage_message
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: alex
+    password: rabbit
 
 logging:
   level:
